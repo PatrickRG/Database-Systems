@@ -1,0 +1,171 @@
+<html>
+<body>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Insert into Customer (1a):
+    </h1>
+        <form action="1a.php" method="post">
+        First Name: <input type="text" name="FirstName" required><br/>
+        Last Name: <input type="text" name="LastName" required><br />
+        Phone: <input type="text" name="Phone"><br />
+        Email: <input type="text" name="Email"><br />
+        <input type="submit" name="submit">
+        </form>
+
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Count number of products by a manufacturer with a price greater then user entry and sum all prices (1b):
+    </h1>
+        <form action="1b.php" method="post">
+        Manufacturer: <input type="text" name="Manufacturer" required><br/>
+        Minimum Price: <input type="number" name="MinPrice" required><br />
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Sum all prices of Products, get number of customers (1c):
+    </h1>
+        <form action="1c.php" method="post">
+        Table 1: <input type="text" name="TableOne" required><br/>
+        Table 2: <input type="text" name="TableTwo" required><br/>
+        Manufacturer: <input type="text" name="Manufacturer" required><br/>
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Number of entered Manufacturer having more than one product (1d):
+    </h1>
+        <form action="1d.php" method="post">
+        Manufacturer: <input type="text" name="Manufacturer" required><br/>
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Return number of purchases by Customer ID (1e):
+    </h1>
+        <form action="1e.php" method="post">
+        Customer ID: <input type="number" name="cust" required><br />
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Create view of Product Listings with Price $400 or above (2a):
+    </h1>
+        <form action="2a.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Select all entries from the View from above with a Manufacturer of the one entered below (2b):
+    </h1>
+        <form action="2b.php" method="post">
+        Manufacturer: <input type="text" name="Man" required><br/>
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Create view of all Monitor AND Laptop listings (2c):
+    </h1>
+        <form action="2c.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Insert Monitor Row into the View created Above (2d):
+    </h1>
+        <form action="2d.php" method="post">
+        ModelNumber: <input type="text" name="ModelNumber" required><br/>
+        Manufacturer: <input type="text" name="Manufacturer" required><br />
+        Price: <input type="number" name="Price"><br />
+        Resolution: <input type="text" name="Resolution"><br />
+        RefreshRate: <input type="text" name="RefreshRate"><br />
+        Latency: <input type="text" name="Latency"><br />
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Create table BannedCustomer (3a):
+    </h1>
+        <form action="3a.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Delete table BannedCustomer (3b):
+    </h1>
+        <form action="3b.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Add State field to BannedCustomers (3c):
+    </h1>
+        <form action="3c.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Drop State field in BannedCustomers (3d):
+    </h1>
+        <form action="3d.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Create and run query on Cell Phone Model Number Index (4a):
+    </h1>
+        <form action="4a.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Create and run query on AntiVirus secondary key Index (4b):
+    </h1>
+        <form action="4b.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Select all Desktops where the Desktop's price is greater than the minimum price of the cheapest laptop (5a):
+    </h1>
+        <form action="5a.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Correlated subquery selecting FirstName and purchase number from CustomerProductIT and Customer (5b):
+    </h1>
+        <form action="5b.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Create trigger where when a person on the BannedCustomers table gets inserted into the Customers table, they get removed from the BannedCustomers (6):
+    </h1>
+        <form action="6.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Create function which returns the max price of all products (7):
+    </h1>
+        <form action="7.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Create procedure which returns the min price of all products (8):
+    </h1>
+        <form action="8.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+    <h1 style="font-family:Arial; font-size:150%";>
+        Create cursor which deletes all customers with ID >= 10 (9):
+    </h1>
+        <form action="9.php" method="post">
+        <input type="submit" name="submit">
+        </form>
+
+</body>
+</html>
